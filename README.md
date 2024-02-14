@@ -1,5 +1,5 @@
 ### EX1 Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing
-### DATE: 
+### DATE: 11.2.24
 ### AIM: 
   To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing
 ### PROCEDURE: 
@@ -53,8 +53,13 @@ rainy,75.0,80.0,false,yes
 8) Click on edit button which shows employee table on weka.
 
 ### OUTPUT:
+Training Data Set -> Employee Table
 
+![image](https://github.com/jithendra2004/WDM_EXP1/assets/94226297/5a83088b-86b3-40cf-a1da-657433f1d54e)
 
+Training Data Set-> Weather Table
+
+![image](https://github.com/jithendra2004/WDM_EXP1/assets/94226297/221b198e-4933-4176-9fc9-9fce87dfa333)
 
 ### PREPROCESSING
 ### Procedure:
@@ -75,6 +80,14 @@ rainy,75.0,80.0,false,yes
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+Employee Table after adding new attribute ADDRESS:
+
+![image](https://github.com/jithendra2004/WDM_EXP1/assets/94226297/ccbc7a2e-bf03-47c1-8542-9bd809f83797)
+
+Weather Table after adding new attribute CLIMATE:
+
+![image](https://github.com/jithendra2004/WDM_EXP1/assets/94226297/db41a1e6-745d-4340-a37e-d2368ee79dd5)
+
 
 ### 2) Remove -> Pre-Processing Technique:
 
@@ -91,6 +104,13 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+Employee Table after removing attributes SALARY, GENDER:
+
+![image](https://github.com/jithendra2004/WDM_EXP1/assets/94226297/76674e92-0ffe-4f2a-8ac3-c468098fdd9b)
+
+Weather Table after removing attributes WINDY, PLAY:
+
+![image](https://github.com/jithendra2004/WDM_EXP1/assets/94226297/1b0498b1-56da-430f-b291-00a5dc575ac5)
 
 ### Normalize -> Pre-Processing Technique:
 
@@ -107,5 +127,13 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
+Employee Table after Normalizing ID, EXP, PHONE:
+
+![image](https://github.com/jithendra2004/WDM_EXP1/assets/94226297/3bc76320-62cd-4128-906b-e2ccd8fce7d0)
+
+Weather Table after Normalizing TEMPARATURE, HUMIDITY:
+
+![image](https://github.com/jithendra2004/WDM_EXP1/assets/94226297/04fb6180-3674-4388-bdef-57e33dd93359)
+
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
